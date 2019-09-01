@@ -5,7 +5,7 @@ body {
 
 .head1 {
 	display: flex;
-	width: 1170px;
+	width: 86%;
 	justify-content: space-between;
 	margin:0 auto;
 }
@@ -95,7 +95,7 @@ body {
 }
 
 .head2 {
-	width: 1170px;
+	width: 86%;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
@@ -163,6 +163,7 @@ body {
 
 .travelling {
 	background-image: url(../image/backgraund.png);
+	background-size: 100% 100%;
 	margin:0;
 	padding-top:147px;
 	padding-left: 37px;
@@ -322,6 +323,7 @@ body {
 .map {
 	padding: 0px 25px 27px 25px;
 	height: 600px;
+	width: 86%;
 	box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
 	margin-bottom: 30px;
 }
@@ -377,20 +379,21 @@ body {
 
 .img1 {
 	position: relative;
+	width: 48%;
 }
 
 .img1 > img {
 	position: absolute;
-    width: 410px;
-    height: 483px;
+    width: 102%;
+    height: 123%;
     bottom: -29px;
 	right: -14px;
 }
 
 .img1 > div {
 	position: absolute;
-    width: 410px;
-    height: 483px;
+    width: 102%;
+    height: 123%;
     bottom: -29px;
 	right: -14px;
 	z-index: 2;
@@ -404,7 +407,7 @@ body {
 }
 
 .night {
-	width: 385px;
+	width: 100%;
 	border-bottom: 2px solid #858a8b;
 	padding-bottom: 20px;
 }
@@ -538,7 +541,7 @@ body {
 
 .about {
 	padding: 0px 25px 27px 25px;
-	width: 400px;
+	width: 86%;
 	position: relative;
 	height: 611px;
 	box-shadow: 0.4em 0.4em 24px 2px rgba(122,122,122,0.5);
