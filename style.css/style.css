@@ -320,7 +320,7 @@ body {
 .left {
 	display: flex;
 	flex-direction: column;
-	width: 602px;
+	width: 26%;
 	margin-right: 26px;
 }
 
@@ -340,7 +340,7 @@ body {
 
 .map > div > h3 {
 	display: inline-block;
-	font-size: 24px;
+	font-size: 18px;
 	color: #413f3f;
 }
 
@@ -349,7 +349,7 @@ body {
 	width: 62px;
 	height: 16px;
 	border-top: 3px solid #dde1f4;
-	margin-top:43px;
+	margin-top:29px;
 }
 
 .bord1 {
@@ -422,13 +422,13 @@ body {
 
 .night > h4 {
 	font-family:  'Myriad Pro', sans-serif;
-	font-size: 21px;
+	font-size: 18px;
 	color: #ffc908;
 }
 
 .night > p {
 	font-family: 'OpenSans' ,sans-serif;
-	font-size: 31px;
+	font-size: 24px;
 	color:#282d2d;
 	margin:0;
 	padding: 0;
@@ -436,7 +436,7 @@ body {
 
 .afterNight > p {
 	font-family:  'Myriad Pro', sans-serif;
-	font-size: 24px;
+	font-size: 20px;
 	color: #6c7374;
 }
 
@@ -445,7 +445,7 @@ body {
     text-decoration: none;
     background: #ffc908;
     color: #242929;
-    font-size: 19px;
+    font-size: 14px;
     font-family: 'Myriad Pro', sans-serif;
     text-transform: uppercase;
     font-weight: bolder;
@@ -457,7 +457,7 @@ body {
 	font-family: 'Myriad Pro', sans-serif;
 	text-transform: uppercase;
     font-weight: bolder;
-    font-size: 19px;
+    font-size: 16px;
     letter-spacing: 2px;
     color: #a8aeae;
     margin-left: 35px;
@@ -477,7 +477,7 @@ body {
 .afterNight > ul > li > a {
 	text-decoration: none;
 	color: #ffc908;
-	font-size: 24px;
+	font-size: 20px;
 }
 
 .afterNight > ul > li:first-child > a:after {
@@ -563,7 +563,7 @@ body {
 
 .bordAbout > h3 {
 	font-family: 'Myriad Pro', sans-serif;
-	font-size: 24px;
+	font-size: 19px;
 	color: #413f3f;
 }
 
@@ -572,7 +572,7 @@ body {
 	width: 62px;
 	height: 13px;
 	border-top: 3px solid #dde1f4;
-	margin-top:43px;
+	margin-top:30px;
 }
 
 .bordAbout1 {
@@ -758,14 +758,14 @@ body {
 
 .lifestyle > h3 {
 	color: #f9c408;
-	font-size: 22px;
+	font-size: 20px;
 	letter-spacing: 3px;
 	margin-top: 0;
 }
 
 .lifestyle > p {
 	color: #282d2d;
-	font-size: 28px;
+	font-size: 25px;
 }
 
 .info {
@@ -778,7 +778,7 @@ body {
 }
 
 .info > p {
-	font-size: 14px;
+	font-size: 12px;
 	color: #a8aeae;
 }
 
@@ -804,7 +804,7 @@ body {
     text-decoration: none;
     background: #ffc908;
     color: #242929;
-    font-size: 19px;
+    font-size: 13px;
     font-family: 'Myriad Pro', sans-serif;
     text-transform: uppercase;
     font-weight: bolder;
@@ -871,9 +871,10 @@ body {
 
 .bordLet > h3 {
 	font-family: 'Myriad Pro', sans-serif;
-    font-size: 35px;
+    font-size: 28px;
     color: #413f3f;
     margin-top: 10px;
+    text-align: center;
 }
 
 .formLet {
@@ -987,6 +988,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 30px;
+	margin-bottom: -30px;
 	padding-bottom: 4%;
 	box-shadow: 0.4em 0.4em 24px 2px rgba(122,122,122,0.5);
 }
@@ -1063,13 +1065,13 @@ body {
 }
 
 .foodTavl > h3 {
-	font-size: 18px;
+	font-size: 17px;
 	color: #ffc908;
 	letter-spacing: 3px;
 }
 
 .foodprew {
-	font-size: 20px;
+	font-size: 18px;
 	color: #282d2d;
 	line-height: 35px;
 }
@@ -1100,7 +1102,7 @@ body {
 }
 
 .foodTavl > a {
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: bold;
 	letter-spacing: 2px;
 	text-decoration: none;
@@ -1124,7 +1126,7 @@ body {
 .foodTavl > ul > li > a {
 	font-family: FontAwesome;
 	text-decoration: none;
-	font-size: 26px;
+	font-size: 23px;
 	color: #ffc908;
 
 }
@@ -1173,7 +1175,7 @@ body {
 
 .tagsMenu > div > ul > li > a {
 	text-decoration: none;
-	font-size: 25px;
+	font-size: 17px;
 	font-family: 'Myriad Pro', sans-serif;
 	color: #242929;
 }
