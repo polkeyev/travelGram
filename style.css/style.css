@@ -102,11 +102,15 @@ body {
 	padding: 22px 22px;
 }
 
+.head2 > nav {
+	width: 66%;
+}
+
 .menuHead {
 	list-style:none;
 	margin: 0;
 	padding-left: 0;
-	width: 735px;
+	/*width: 735px;*/
 	display: flex;
 	justify-content: space-between;
 }
@@ -163,12 +167,12 @@ body {
 
 .travelling {
 	background-image: url(../image/backgraund.png);
-	background-size: 100% 100%;
+	/*background-size: 100% 100%;*/
 	margin:0;
-	padding-top:147px;
+	padding-top:100px;
 	padding-left: 37px;
 	margin-top: -17px;
-	padding-bottom: 90px;
+	padding-bottom: 50px;
 }
 
 
@@ -208,7 +212,7 @@ body {
 	font-weight: 300;
 	font-size: 14px;
 	color:#fff;
-	margin-top: 332px;
+	margin-top: 181px;
 	margin-bottom: 20px;
 }
 
@@ -286,7 +290,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	width: 66px;
-	margin-top: 50px;
+	margin-top: 0;
 	padding-left: 75px;
 }
 
@@ -666,12 +670,13 @@ body {
 
 .img2 {
 	position: relative;
+	width: 49%;
 }
 
 .img2 > img {
 	position: absolute;
-    width: 410px;
-    height: 483px;
+    width: 100%;
+    height: 122%;
     bottom: -29px;
     /*right: -14px;*/
     left: -28px;
@@ -679,8 +684,8 @@ body {
 
 .img2 > div {
 	position: absolute;
-    width: 410px;
-    height: 483px;
+    width: 100%;
+    height: 122%;
     bottom: -29px;
 	left: -28px;
 	z-index: 2;
