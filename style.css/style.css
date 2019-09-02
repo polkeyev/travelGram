@@ -989,7 +989,7 @@ body {
 	justify-content: space-between;
 	margin-top: 30px;
 	margin-bottom: -30px;
-	padding-bottom: 4%;
+	/*padding-bottom: 4%;*/
 	box-shadow: 0.4em 0.4em 24px 2px rgba(122,122,122,0.5);
 }
 
@@ -999,10 +999,12 @@ body {
 
 .postimg4 {
 	position: relative;
+	height: 50%;
 }
 
 .postimg4 > img {
 	width: 100%;
+	height: 100%;
 }
 
 .postimg4 > div {
