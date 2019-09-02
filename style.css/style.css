@@ -381,7 +381,7 @@ body {
 
 }
 
-.post1 {
+.post1  > div:first-child {
 	width: 49%;
 }
 
@@ -672,7 +672,7 @@ body {
 	margin-top: 118px;
 }
 
-.post2 {
+.post2 > div:first-child {
 	width: 49%;
 }
 
