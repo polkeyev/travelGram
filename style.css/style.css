@@ -160,9 +160,18 @@ body {
 	content:"\f16d";
 }
 
-.socialHead > li:last-child > a:after {
+.socialHead > li:nth-child(5) > a:after {
 	content:"\f16a";
 	margin-right: 0;
+}
+
+.socialHead > li:last-child > a:after {
+	content:"\f0c9";
+	margin-right: 0;
+}
+
+.socialHead > li:last-child {
+	display: none;
 }
 
 .travelling {

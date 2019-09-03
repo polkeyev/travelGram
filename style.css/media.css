@@ -1,7 +1,280 @@
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 480px) {
 
 	.left {
 		display: none;
+	}
+
+	.head2 > nav {
+		display: none;
+	}
+
+	.headSubscr {
+		margin-top: 236px;
+	}
+
+	.underline {
+		margin-top: 35px;
+	}
+
+	.search {
+		margin-top: 226px;
+	}
+
+	.search > a > img {
+		left: 84px;
+	}
+
+	.head2 {
+		width: 70%;
+	}
+
+	.socialHead > li > a:after {
+		font-size: 24px;
+	}
+
+	.socialHead > li:last-child {
+		display: inherit;
+		position: absolute;
+    	left: 89%;
+	}
+
+	.travelling {
+		background-image: url(../image/backgraund2.png);
+		background-repeat: no-repeat;
+	}
+
+	.travH2 {
+		margin-bottom: 4px;
+    	font-size: 15px;
+	}
+
+	.sports {
+		font-size: 12px;
+	}
+
+	.featured {
+		margin-top: 0px;
+		margin-bottom: 7px;
+	}
+
+	.slider {
+		margin-bottom: 12px;
+	}
+
+	.butTop, .butBotm {
+		width: 30px;
+		height: 30px;
+	}
+
+	.butTop > img {
+    	transform: translate(47%, 71%);
+	}
+
+	.butBotm > img {
+    	transform: translate(43%, 76%);
+	}
+
+	.lost {
+		font-size: 25px;
+	}
+
+	.lost1 > p {
+		font-size: 10px;
+	}
+
+	.explo1 {
+		padding-bottom: 0;
+	}
+
+	.explo {
+		padding: 6px;
+		margin-bottom: 0px;
+	}
+
+	.slideDot {
+		margin-top: 6px;
+	}
+
+	.slideDot > div {
+		width: 5px;
+		height: 5px;
+	}
+
+	.night {
+		padding-bottom: 0px;
+	}
+
+	.night > h4 {
+		margin: 10px 0 0;
+	}
+
+	.night > p {
+		font-size: 18px;
+	}
+
+	.afterNight > p {
+		font-size: 15px;
+	}
+
+	.afterNight > a {
+		padding: 4px;
+	}
+
+	.afterNight > h5 {
+		margin: 0;
+	}
+
+	.afterNight > ul {
+		margin: 10px 0;
+	}
+
+	.img1 {
+		width: 53%;
+	}
+
+	.img1 > img {
+		width: 112%;
+    	height: 123%;
+    	right: -32px;
+	}
+
+	.img1 > div {
+		width: 111%;
+    	height: 124%;
+    	bottom: -30px;
+    	right: -29px;
+	}
+
+	.img1 > div > div {
+		margin-top: 143px;
+	}
+
+	.img1 > div > div > a {
+		padding: 10px 20px;
+		font-size: 16px;
+	}
+
+	.img1 > div > p {
+		font-size: 9px;
+		margin-top: 30px;
+    	margin-left: 10px;
+	}
+	
+	.post1 {
+		margin-top : -30px;
+	}
+
+	.post2 {
+		margin-top: 46px;
+	}
+
+	.post3 {
+		margin-top: 11%;
+	}
+
+	.lifestyle > h3 {
+		font-size: 19px;
+		margin: 0;
+	}
+
+	.lifestyle > p {
+		font-size: 20px;
+    	margin-top: 3px;
+	}
+
+	.info {
+		left: 50%;
+    	top: 69%;
+    	width: 41%;
+	}
+
+	.info > p {
+		font-size: 9px;
+	}
+
+	.lifestyle > ul {
+		width: 33%;
+    	margin-left: 15%;
+	}
+
+	.foodTavl > h3 {
+		font-size: 15px;
+		margin: 10px 10px;
+	}
+
+	.foodprew {
+		font-size: 16px;
+    	margin: 4px 0px;
+	}
+
+	.fooddate, .foodLike, .foodComment {
+		font-size: 10px;
+	}
+
+	.foodTavl > a {
+		font-size: 12px;
+		padding: 7px 11px;
+	}
+
+	.foodTavl > ul {
+		margin-left: 2%;
+    	margin-top: 9%;
+    	padding-left: 0;
+    	margin-bottom: 47px;
+	}
+
+	.post4 {
+		margin-bottom: -15px;
+	}
+
+	.sliderButton > h4 {
+		font-size: 14px;
+	}
+
+	.sliderButton > div > div {
+		width: 36px;
+    	height: 36px;
+	}
+
+	.sliderButton > div > div > p {
+		margin: 10px;
+	}
+
+	.sliderGallerey1 {
+		margin-top: 14px;
+	}
+
+	.sliderGallerey1 > div {
+		height: 129px;
+	}
+
+	.gallerey > ul {
+		width: 97%;
+	}
+
+	.gallerey > ul > li > a {
+		font-size: 9px;
+	}
+
+	.gallerey > ul > li > a:before {
+		margin-right: 3%;
+	}
+
+	.menuFooter {
+		width: 94%;
+	}
+
+	.menuFooter > ul > li > a {
+		font-size: 12px;
+	}
+
+	.footerDiv2 > div {
+		bottom: 128%;
+	}
+
+	.footerDiv2 > p {
+		margin-top: 30px;
+		font-size: 11px;
 	}
 
 }
