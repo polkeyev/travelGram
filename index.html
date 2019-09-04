@@ -9,9 +9,10 @@
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:300i&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="main.js/main.js"></script>
 </head>
 <body>
-	<header>
+	<header id="header">
 		<div class="head1">
 			<div class="search">
 				<a href="">Search and hit enter <img src="image/search.png"> </a>
@@ -50,7 +51,7 @@
 			</ul>
 		</div>
 	</header>
-	<section class="travelling">
+	<section class="travelling" id="sectionTravelling">
 		<div>
 			<h2 class="travH2">TRAVELLING</h2>
 			<div class="threAngl"><img src="image/Path.png"></div>
@@ -60,8 +61,8 @@
 			<h2 class="featured">FEATURED BLOG</h2>
 			<div class="slider">
 				<div class="slidButn">
-					<div class="butTop"><img src="image/top.png"></div>
-					<div class="butBotm"><img src="image/bottom.png"></div>
+					<div class="butTop" id="buttonTop" onclick="slide()"><img src="image/top.png"></div>
+					<div class="butBotm" id="butDwn" onclick="slideDwn()"><img src="image/bottom.png"></div>
 				</div>
 				<div class="lost1">
 					<h2 class="lost">LOST IN SPASE</h2>
@@ -74,11 +75,11 @@
 				<a href="" class="explo">EXPLORE NOW</a>
 			</div>
 			<div class="slideDot">
-				<div class="dot1"></div>
-				<div class="dot2"></div>
-				<div class="dot3"></div>
-				<div class="dot4"></div>
-				<div class="dot5"></div>
+				<div class="dot1 dot" id="dot_o"></div>
+				<div class="dot2" id="dot_t"></div>
+				<div class="dot3" id="dot_f"></div>
+				<div class="dot4" id="dot_r"></div>
+				<div class="dot5" id="dot_s"></div>
 			</div>	
 		</div>
 	</section>
@@ -226,119 +227,93 @@
 				</form>
 			</div>
 		</div>
-		<div class="right">
-			<div class="post1">
-				<div>
-					<div class="night">
-						<h4>NIGHT LIFE</h4>
-						<P>Written in the stars, Million</P>
-						<p>miles aeay!</p>
-					</div>
-					<div class="afterNight">
-						<p>A high degree of autonomy is particularly desirable in fields such as space exploration...</p>
-						<a href="">Readmore</a>
-						<h5>Share</h5>
-						<ul>
-							<li>
-								<a href=""></a>
-							</li>
-							<li>
-								<a href=""></a>
-							</li>
-							<li>
-								<a href=""></a>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="img1">
-					<img src="image/17-2.png">
+		<div class="righttop" >
+			<div class="right">
+				<div class="post1">
 					<div>
-						<div>
-							<a href="">Readmore</a>
+						<div class="night">
+							<h4>NIGHT LIFE</h4>
+							<P>Written in the stars, Million</P>
+							<p>miles aeay!</p>
 						</div>
-						<p class="date">August 30,2019</p>
-						<p class="heart">100</p>
-						<p class="comment">200</p>
+						<div class="afterNight">
+							<p>A high degree of autonomy is particularly desirable in fields such as space exploration...</p>
+							<a href="">Readmore</a>
+							<h5>Share</h5>
+							<ul>
+								<li>
+									<a href=""></a>
+								</li>
+								<li>
+									<a href=""></a>
+								</li>
+								<li>
+									<a href=""></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="img1">
+						<img src="image/17-2.png">
+						<div>
+							<div>
+								<a href="">Readmore</a>
+							</div>
+							<p class="date">August 30,2019</p>
+							<p class="heart">100</p>
+							<p class="comment">200</p>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="post2">
-				<div>
-					<div class="night">
-						<h4>NIGHT LIFE</h4>
-						<P>Written in the stars, Million</P>
-						<p>miles aeay!</p>
-					</div>
-					<div class="afterNight">
-						<p>A high degree of autonomy is particularly desirable in fields such as space exploration...</p>
-						<a href="">Readmore</a>
-						<h5>Share</h5>
-						<ul>
-							<li>
-								<a href=""></a>
-							</li>
-							<li>
-								<a href=""></a>
-							</li>
-							<li>
-								<a href=""></a>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="img2">
-					<img src="image/twoside1.png">
+				<div class="post2">
 					<div>
-						<div>
+						<div class="night">
+							<h4>NIGHT LIFE</h4>
+							<P>Written in the stars, Million</P>
+							<p>miles aeay!</p>
+						</div>
+							<div class="afterNight">
+							<p>A high degree of autonomy is particularly desirable in fields such as space exploration...</p>
 							<a href="">Readmore</a>
+							<h5>Share</h5>
+							<ul>
+								<li>
+									<a href=""></a>
+								</li>
+								<li>
+									<a href=""></a>
+								</li>
+								<li>
+									<a href=""></a>
+								</li>
+							</ul>
 						</div>
-						<p class="date">August 30,2019</p>
-						<p class="heart">100</p>
-						<p class="comment">200</p>
 					</div>
-				</div>
-			</div>
-			<div class="post3">
-				<div class="imgPost3">
-					<img src="image/IM.png">
-				</div>
-				<div class="lifestyle">
-					<h3>LIFESTYLE</h3>
-					<p>The Vermont Delegation Mourns the Sanders <br>Campaign</br></p>
-					<div class="info">
-						<p class="Date">March 22, 2017</p>
-						<p class="Likes">100 Likes</p>
-						<p class="Comment">20 Comment</p>
-					</div>
-					<a href="">Readmore</a>
-					<ul>
-						<li><a href=""></a></li>
-						<li><a href=""></a></li>
-						<li><a href=""></a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="post4">
-				<div>
-					<div class="postimg4">
-						<img src="image/post4-2.png">
+					<div class="img2">
+						<img src="image/twoside1.png">
 						<div>
-							<div class="post4a">
-								<a href="">READMORE</a>
-							</div>	
-							<p class="datePost4">April 19, 2017</p>
-							<p class="likePost4">100</p>
-							<p class="commentPost4">20</p>
+							<div>
+								<a href="">Readmore</a>
+							</div>
+							<p class="date">August 30,2019</p>
+							<p class="heart">100</p>
+							<p class="comment">200</p>
 						</div>
 					</div>
-					<div class="foodTavl">
-						<h3>FOOD AND TRAVEL</h3>
-						<p class="foodprew">And what falls, is fallen And what falls, is fallen... <br>Bruce Wayne</br></p>
-						<p class="fooddate">March 22, 2017</p>
-						<p class="foodLike">100 Likes </p>
-						<p class="foodComment">Comment</p>
-						<a href="">READMORE</a>
+				</div>
+				<div class="post3">
+					<div class="imgPost3">
+						<img src="image/IM.png">
+					</div>
+					<div class="lifestyle">
+						<h3>LIFESTYLE</h3>
+						<p>The Vermont Delegation Mourns the Sanders <br>Campaign</br></p>
+						<div class="info">
+							<p class="Date">March 22, 2017</p>
+							<p class="Likes">100 Likes</p>
+							<p class="Comment">20 Comment</p>
+						</div>
+						<a href="">Readmore</a>
 						<ul>
 							<li><a href=""></a></li>
 							<li><a href=""></a></li>
@@ -346,25 +321,73 @@
 						</ul>
 					</div>
 				</div>
-				<div>
-					<div class="postimg4">
-						<img src="image/post4-2.png">
-						<div>
-							<div class="post4a">
-								<a href="">READMORE</a>
-							</div>	
-							<p class="datePost4">April 19, 2017</p>
-							<p  class="likePost4">100</p>
-							<p class="commentPost4">20</p>
+				<div class="post4">
+					<div>
+						<div class="postimg4">
+							<img src="image/post4-2.png">
+							<div>
+								<div class="post4a">
+									<a href="">READMORE</a>
+								</div>	
+								<p class="datePost4">April 19, 2017</p>
+								<p class="likePost4">100</p>
+								<p class="commentPost4">20</p>
+							</div>
+						</div>
+						<div class="foodTavl">
+							<h3>FOOD AND TRAVEL</h3>
+							<p class="foodprew">And what falls, is fallen And what falls, is fallen... <br>Bruce Wayne</br></p>
+							<p class="fooddate">March 22, 2017</p>
+							<p class="foodLike">100 Likes </p>
+							<p class="foodComment">Comment</p>
+							<a href="">READMORE</a>
+							<ul>
+								<li><a href=""></a></li>
+								<li><a href=""></a></li>
+								<li><a href=""></a></li>
+							</ul>
 						</div>
 					</div>
-					<div class="foodTavl">
-						<h3>FOOD AND TRAVEL</h3>
-						<p  class="foodprew">And what falls, is fallen And what falls, is fallen... <br>Bruce Wayne</br></p>
-						<p class="fooddate">March 22, 2017</p>
-						<p class="foodLike">100 Likes </p>
-						<p class="foodComment">Comment</p>
-						<a href="">READMORE</a>
+					<div>
+						<div class="postimg4">
+							<img src="image/post4-2.png">
+							<div>
+								<div class="post4a">
+									<a href="">READMORE</a>
+								</div>	
+								<p class="datePost4">April 19, 2017</p>
+								<p  class="likePost4">100</p>
+								<p class="commentPost4">20</p>
+							</div>
+						</div>
+						<div class="foodTavl">
+							<h3>FOOD AND TRAVEL</h3>
+							<p  class="foodprew">And what falls, is fallen And what falls, is fallen... <br>Bruce Wayne</br></p>
+							<p class="fooddate">March 22, 2017</p>
+							<p class="foodLike">100 Likes </p>
+							<p class="foodComment">Comment</p>
+							<a href="">READMORE</a>
+							<ul>
+								<li><a href=""></a></li>
+								<li><a href=""></a></li>
+								<li><a href=""></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="post3">
+					<div class="imgPost3">
+						<img src="image/bloglast.png">
+					</div>
+					<div class="lifestyle">
+						<h3>LIFESTYLE</h3>
+						<p>The Vermont Delegation Mourns the Sanders <br>Campaign</br></p>
+						<div class="info">
+							<p class="Date">March 22, 2017</p>
+							<p class="Likes">100 Likes</p>
+							<p class="Comment">20 Comment</p>
+						</div>
+						<a href="">Readmore</a>
 						<ul>
 							<li><a href=""></a></li>
 							<li><a href=""></a></li>
@@ -373,34 +396,350 @@
 					</div>
 				</div>
 			</div>
-			<div class="post3">
-				<div class="imgPost3">
-					<img src="image/bloglast.png">
-				</div>
-				<div class="lifestyle">
-					<h3>LIFESTYLE</h3>
-					<p>The Vermont Delegation Mourns the Sanders <br>Campaign</br></p>
-					<div class="info">
-						<p class="Date">March 22, 2017</p>
-						<p class="Likes">100 Likes</p>
-						<p class="Comment">20 Comment</p>
+			<div class="right" >
+				<div class="post1">
+					<div>
+						<div class="night">
+							<h4>NIGHT LIFE</h4>
+							<P>Written in the stars, Million</P>
+							<p>miles aeay!</p>
+						</div>
+						<div class="afterNight">
+							<p>A high degree of autonomy is particularly desirable in fields such as space exploration...</p>
+							<a href="">Readmore</a>
+							<h5>Share</h5>
+							<ul>
+								<li>
+									<a href=""></a>
+								</li>
+								<li>
+									<a href=""></a>
+								</li>
+								<li>
+									<a href=""></a>
+								</li>
+							</ul>
+						</div>
 					</div>
-					<a href="">Readmore</a>
-					<ul>
-						<li><a href=""></a></li>
-						<li><a href=""></a></li>
-						<li><a href=""></a></li>
-					</ul>
+					<div class="img1">
+						<img src="image/17-2.png">
+						<div>
+							<div>
+								<a href="">Readmore</a>
+							</div>
+							<p class="date">August 30,2019</p>
+							<p class="heart">100</p>
+							<p class="comment">200</p>
+						</div>
+					</div>
+				</div>
+				<div class="post2">
+					<div>
+						<div class="night">
+							<h4>NIGHT LIFE</h4>
+							<P>Written in the stars, Million</P>
+							<p>miles aeay!</p>
+						</div>
+							<div class="afterNight">
+							<p>A high degree of autonomy is particularly desirable in fields such as space exploration...</p>
+							<a href="">Readmore</a>
+							<h5>Share</h5>
+							<ul>
+								<li>
+									<a href=""></a>
+								</li>
+								<li>
+									<a href=""></a>
+								</li>
+								<li>
+									<a href=""></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="img2">
+						<img src="image/twoside1.png">
+						<div>
+							<div>
+								<a href="">Readmore</a>
+							</div>
+							<p class="date">August 30,2019</p>
+							<p class="heart">100</p>
+							<p class="comment">200</p>
+						</div>
+					</div>
+				</div>
+				<div class="post3">
+					<div class="imgPost3">
+						<img src="image/IM.png">
+					</div>
+					<div class="lifestyle">
+						<h3>LIFESTYLE</h3>
+						<p>The Vermont Delegation Mourns the Sanders <br>Campaign</br></p>
+						<div class="info">
+							<p class="Date">March 22, 2017</p>
+							<p class="Likes">100 Likes</p>
+							<p class="Comment">20 Comment</p>
+						</div>
+						<a href="">Readmore</a>
+						<ul>
+							<li><a href=""></a></li>
+							<li><a href=""></a></li>
+							<li><a href=""></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="post4">
+					<div>
+						<div class="postimg4">
+							<img src="image/post4-2.png">
+							<div>
+								<div class="post4a">
+									<a href="">READMORE</a>
+								</div>	
+								<p class="datePost4">April 19, 2017</p>
+								<p class="likePost4">100</p>
+								<p class="commentPost4">20</p>
+							</div>
+						</div>
+						<div class="foodTavl">
+							<h3>FOOD AND TRAVEL</h3>
+							<p class="foodprew">And what falls, is fallen And what falls, is fallen... <br>Bruce Wayne</br></p>
+							<p class="fooddate">March 22, 2017</p>
+							<p class="foodLike">100 Likes </p>
+							<p class="foodComment">Comment</p>
+							<a href="">READMORE</a>
+							<ul>
+								<li><a href=""></a></li>
+								<li><a href=""></a></li>
+								<li><a href=""></a></li>
+							</ul>
+						</div>
+					</div>
+					<div>
+						<div class="postimg4">
+							<img src="image/post4-2.png">
+							<div>
+								<div class="post4a">
+									<a href="">READMORE</a>
+								</div>	
+								<p class="datePost4">April 19, 2017</p>
+								<p  class="likePost4">100</p>
+								<p class="commentPost4">20</p>
+							</div>
+						</div>
+						<div class="foodTavl">
+							<h3>FOOD AND TRAVEL</h3>
+							<p  class="foodprew">And what falls, is fallen And what falls, is fallen... <br>Bruce Wayne</br></p>
+							<p class="fooddate">March 22, 2017</p>
+							<p class="foodLike">100 Likes </p>
+							<p class="foodComment">Comment</p>
+							<a href="">READMORE</a>
+							<ul>
+								<li><a href=""></a></li>
+								<li><a href=""></a></li>
+								<li><a href=""></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="post3">
+					<div class="imgPost3">
+						<img src="image/bloglast.png">
+					</div>
+					<div class="lifestyle">
+						<h3>LIFESTYLE</h3>
+						<p>The Vermont Delegation Mourns the Sanders <br>Campaign</br></p>
+						<div class="info">
+							<p class="Date">March 22, 2017</p>
+							<p class="Likes">100 Likes</p>
+							<p class="Comment">20 Comment</p>
+						</div>
+						<a href="">Readmore</a>
+						<ul>
+							<li><a href=""></a></li>
+							<li><a href=""></a></li>
+							<li><a href=""></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="right" >
+				<div class="post1">
+					<div>
+						<div class="night">
+							<h4>NIGHT LIFE</h4>
+							<P>Written in the stars, Million</P>
+							<p>miles aeay!</p>
+						</div>
+						<div class="afterNight">
+							<p>A high degree of autonomy is particularly desirable in fields such as space exploration...</p>
+							<a href="">Readmore</a>
+							<h5>Share</h5>
+							<ul>
+								<li>
+									<a href=""></a>
+								</li>
+								<li>
+									<a href=""></a>
+								</li>
+								<li>
+									<a href=""></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="img1">
+						<img src="image/17-2.png">
+						<div>
+							<div>
+								<a href="">Readmore</a>
+							</div>
+							<p class="date">August 30,2019</p>
+							<p class="heart">100</p>
+							<p class="comment">200</p>
+						</div>
+					</div>
+				</div>
+				<div class="post2">
+					<div>
+						<div class="night">
+							<h4>NIGHT LIFE</h4>
+							<P>Written in the stars, Million</P>
+							<p>miles aeay!</p>
+						</div>
+							<div class="afterNight">
+							<p>A high degree of autonomy is particularly desirable in fields such as space exploration...</p>
+							<a href="">Readmore</a>
+							<h5>Share</h5>
+							<ul>
+								<li>
+									<a href=""></a>
+								</li>
+								<li>
+									<a href=""></a>
+								</li>
+								<li>
+									<a href=""></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="img2">
+						<img src="image/twoside1.png">
+						<div>
+							<div>
+								<a href="">Readmore</a>
+							</div>
+							<p class="date">August 30,2019</p>
+							<p class="heart">100</p>
+							<p class="comment">200</p>
+						</div>
+					</div>
+				</div>
+				<div class="post3">
+					<div class="imgPost3">
+						<img src="image/IM.png">
+					</div>
+					<div class="lifestyle">
+						<h3>LIFESTYLE</h3>
+						<p>The Vermont Delegation Mourns the Sanders <br>Campaign</br></p>
+						<div class="info">
+							<p class="Date">March 22, 2017</p>
+							<p class="Likes">100 Likes</p>
+							<p class="Comment">20 Comment</p>
+						</div>
+						<a href="">Readmore</a>
+						<ul>
+							<li><a href=""></a></li>
+							<li><a href=""></a></li>
+							<li><a href=""></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="post4">
+					<div>
+						<div class="postimg4">
+							<img src="image/post4-2.png">
+							<div>
+								<div class="post4a">
+									<a href="">READMORE</a>
+								</div>	
+								<p class="datePost4">April 19, 2017</p>
+								<p class="likePost4">100</p>
+								<p class="commentPost4">20</p>
+							</div>
+						</div>
+						<div class="foodTavl">
+							<h3>FOOD AND TRAVEL</h3>
+							<p class="foodprew">And what falls, is fallen And what falls, is fallen... <br>Bruce Wayne</br></p>
+							<p class="fooddate">March 22, 2017</p>
+							<p class="foodLike">100 Likes </p>
+							<p class="foodComment">Comment</p>
+							<a href="">READMORE</a>
+							<ul>
+								<li><a href=""></a></li>
+								<li><a href=""></a></li>
+								<li><a href=""></a></li>
+							</ul>
+						</div>
+					</div>
+					<div>
+						<div class="postimg4">
+							<img src="image/post4-2.png">
+							<div>
+								<div class="post4a">
+									<a href="">READMORE</a>
+								</div>	
+								<p class="datePost4">April 19, 2017</p>
+								<p  class="likePost4">100</p>
+								<p class="commentPost4">20</p>
+							</div>
+						</div>
+						<div class="foodTavl">
+							<h3>FOOD AND TRAVEL</h3>
+							<p  class="foodprew">And what falls, is fallen And what falls, is fallen... <br>Bruce Wayne</br></p>
+							<p class="fooddate">March 22, 2017</p>
+							<p class="foodLike">100 Likes </p>
+							<p class="foodComment">Comment</p>
+							<a href="">READMORE</a>
+							<ul>
+								<li><a href=""></a></li>
+								<li><a href=""></a></li>
+								<li><a href=""></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="post3">
+					<div class="imgPost3">
+						<img src="image/bloglast.png">
+					</div>
+					<div class="lifestyle">
+						<h3>LIFESTYLE</h3>
+						<p>The Vermont Delegation Mourns the Sanders <br>Campaign</br></p>
+						<div class="info">
+							<p class="Date">March 22, 2017</p>
+							<p class="Likes">100 Likes</p>
+							<p class="Comment">20 Comment</p>
+						</div>
+						<a href="">Readmore</a>
+						<ul>
+							<li><a href=""></a></li>
+							<li><a href=""></a></li>
+							<li><a href=""></a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 			<div class="sliderButton">
-				<h4 id="previos">Previos</h4>
-				<div>
-					<div><p>1</p></div>
-					<div><p>2</p></div>
-					<div><p>3</p></div>
-				</div>
-				<h4 id="next">Next</h4>
+					<h4 id="previos" onclick="minusSlide()">Previos</h4>
+					<div>
+						<div class="slideNumber active" onclick="currentSlide(1)"><p>1</p></div>
+						<div class="slideNumber" onclick="currentSlide(2)"><p>2</p></div>
+						<div class="slideNumber" onclick="currentSlide(3)"><p>3</p></div>
+					</div>
+					<h4 id="next" onclick="plusSlide()">Next</h4>
 			</div>
 		</div>
 	</section>
@@ -447,8 +786,19 @@
 		</div>
 		<div class="footerDiv2">
 			<p>TravelGram   Designed  By  Navin</p>
-			<div><a href=""><img src="image/top1.png"></a></div>
+			<div><a href="#" onclick="return up()" ><img src="image/top1.png"></a></div>
 		</div>
+		<script type="text/javascript">
+			var t;
+			function up() {
+				var top = Math.max(document.body.scrollTop,document.documentElement.scrollTop);
+				if(top > 0) {
+				window.scrollBy(0,-100);
+				t = setTimeout('up()',20);
+			}	else clearTimeout(t);
+				return false;
+			}
+		</script>
 	</footer>
 </body>
 </html>
